@@ -1,5 +1,8 @@
 $(document).ready(function(){
-    $("#produit_add").click(function(){
-        $("#section").load("inc/produit_add.php");
+    $("#produits").click(function(){
+        $("#section").load("inc/produits.php");
+    });
+    $("#ingredients").click(function(){
+        $("#section").load("inc/ingredients.php");
     });
 });
