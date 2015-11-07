@@ -1,21 +1,18 @@
-<form>
+<form method="POST" action="inc/produit_add_handle.php">
 	<div class="form-group">
-	<label for="nom">Nom du produit</label>
-		<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		<label for="nom">Nom du produit</label>
+		<input type="input" class="form-control" id="nom" name ="nom">
 	</div>
+	
 	<div class="form-group">
-		<label for="exampleInputPassword1">Password</label>
-		<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		<label for="type">Type</label>
+		<input type="input" class="form-control" id="type" name="type">
 	</div>
+
 	<div class="form-group">
-		<label for="exampleInputFile">File input</label>
-		<input type="file" id="exampleInputFile">
-		<p class="help-block">Example block-level help text here.</p>
+		<label for="type">Description</label>
+		<textarea class="form-control" id="description" name="description"></textarea>
 	</div>
-	<div class="checkbox">
-		<label>
-			<input type="checkbox"> Check me out
-		</label>
-	</div>
+	
 	<button type="submit" class="btn btn-default">Submit</button>
 </form>
