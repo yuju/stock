@@ -18,6 +18,7 @@
 	
 	<!-- Custom styles for this template -->
 	<link href="assets/css/dashboard.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 
