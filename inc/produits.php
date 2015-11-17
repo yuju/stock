@@ -24,7 +24,7 @@
 	</div>
 	
 	<div class="row placeholders">
-		<button type="button" class="btn btn-primary pull-right" aria-label="Right Align">
+		<button id="produit_add" type="button" class="btn btn-primary pull-right" aria-label="Right Align">
 			<span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Ajouter un produit
 		</button>
 	</div>
@@ -55,7 +55,17 @@
 							<td><?php echo $donnees["nom"]; ?> </td>
 							<td><?php echo $donnees["type"]; ?> </td>
 							<td><?php echo $donnees["description"]; ?> </td>
-							<td></td>
+							<td>
+								<button id="produit_add" type="button" class="btn btn-xs btn-primary" aria-label="Right Align">
+									<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+								</button>
+								<button id="produit_add" type="button" class="btn btn-xs btn-success" aria-label="Right Align">
+									<span class="glyphicon glyphicon-edit" aria-hidden="true"></span>
+								</button>
+								<button id="produit_add" type="button" class="btn btn-xs  btn-danger" aria-label="Right Align">
+									<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+								</button>
+							</td>
 							</tr>
 					<?php
 						}
