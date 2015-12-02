@@ -10,4 +10,7 @@ $(document).ready(function(){
     $("#ingredients").click(function(){
         $("#section").load("inc/ingredients.php");
     });
+    $("#connexion").click(function(){
+        $("#section").load("inc/connexion.php");
+    });
 });
